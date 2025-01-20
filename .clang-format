@@ -1,0 +1,42 @@
+# Specify the base style as LLVM
+BasedOnStyle: LLVM
+
+# Set the indentation width to 4 spaces
+IndentWidth: 4
+
+# Use spaces for indentation, not tabs
+UseTab: Never
+
+# Include spaces inside parentheses
+SpacesInParentheses: false
+
+# Configure brace wrapping options
+BraceWrapping:
+  # Do not put braces on a new line after control statements (e.g., if, for)
+  AfterControlStatement: false
+  # Do not put braces on a new line after function declarations
+  AfterFunction: false
+
+# Do not allow short if statements to be on a single line
+AllowShortIfStatementsOnASingleLine: false
+
+# Allow short loops to be on a single line
+AllowShortLoopsOnASingleLine: true
+
+# Allow short functions to be written on a single line (inline)
+AllowShortFunctionsOnASingleLine: Inline
+
+# Indent template declarations with respect to the template keyword
+AlwaysBreakTemplateDeclarations: true
+
+# Set the width of the indentation for continuations (i.e., lines starting with operators)
+ContinuationIndentWidth: 4
+
+# Indent case labels by one level
+IndentCaseLabels: true
+
+# Align pointers to the type they point to
+PointerAlignment: Left
+
+# Keep function parameters on the same line if possible
+BinPackParameters: true

@@ -50,3 +50,11 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# IDE
+.vscode/
+.idea/
+
+# project specific
+.obj/
+/hash
