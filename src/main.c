@@ -3,7 +3,7 @@
 
 int main() {
     HashMap map;
-    hashmap_init(&map, 10); 
+    hashmap_init(&map, 10);
 
     int key1 = 42;
     int key2 = 99;
